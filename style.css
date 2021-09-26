@@ -1,0 +1,161 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product {
+  width: 825px;
+  border: solid black 4px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+.sale {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  display: inline-block;
+  text-align: center;
+  top: -17px;
+  left: -37px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.cost {
+  font-size: 24px;
+  float: left;
+}
+
+.product-info p:nth-child(3) {
+  clear: both;
+}
+
+.color {
+  display: inline-block;
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+
+.color-red {
+  background-color: #ec2f2f;
+}
+
+.color-yellow {
+  background-color: #f0bf1e;
+}
+
+.color-green {
+  background-color: #90cc20;
+}
+
+.color-brown {
+  background-color: #885214;
+}
+
+.shipping {
+  color: rgba(68, 68, 68, 0.705);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  margin-left: 55px;
+  margin-top: 5px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.more-info {
+  margin-top: 15px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.add-cart {
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: black solid 4px;
+}
+
+.add-cart:link,
+.add-cart:visited {
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+
+.add-cart:hover,
+.add-cart:active {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.product-image {
+  float: left;
+}
+
+.product-info {
+  float: left;
+  width: 240px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.product-details {
+  float: right;
+  width: 240px;
+}
+
+.cost,
+.shipping {
+  margin-bottom: 20px;
+}
